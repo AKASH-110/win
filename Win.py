@@ -16,7 +16,7 @@ bit = platform.architecture()[0]
 
 if bit == '64bit':
 
-    import win
+    import arch64
 
 elif bit == '32bit':
 
